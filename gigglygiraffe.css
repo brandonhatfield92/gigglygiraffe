@@ -1,0 +1,97 @@
+body {
+  /* Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) { ... }
+
+  /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {}
+
+  font: 1rem/1.5 var(--font-family-sans-serif);
+  background-color: #C9E3AC;
+  padding: 20px;
+  margin: 25px;
+  text-indent: inherit;
+}
+/*Custom CSS*/
+h1 {
+  box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, .5);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/092/728/large_2x/giraffe-print-vector.jpg);
+  background-color: #EAEFBD;
+  text-align: center;
+  color: white;
+
+  padding: 10px;
+  border-radius: 20px;
+  margin: 25px;
+}
+
+/*Custom CSS*/
+.container {
+  border-style: dotted;
+  border-color: #EA9010;
+  padding: 25px;
+  margin: 25px;
+}
+
+p {
+  text-indent: 5%;
+
+}
+
+
+blockquote {
+  background-color: #EAEFBD;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 25px;
+}
+
+/*Custom CSS*/
+h2 {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/092/728/large_2x/giraffe-print-vector.jpg);
+  box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, .5);
+  background-color: #EAEFBD;
+  text-align: center;
+  color: white;
+
+  padding: 10px;
+  border-radius: 25px;
+  margin: 25px;
+
+
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;
+}
+/*Custom CSS*/
+
+.secondary-content {
+  border-style: dotted;
+  border-color: #EA9010;
+  padding: 20px;
+  margin: 20px;
+}
+
+a {
+  color: #EA9010;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+
+/*Images*/
+img {
+  width: 100%;
+
+}
