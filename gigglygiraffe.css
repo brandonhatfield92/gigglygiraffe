@@ -17,6 +17,7 @@ body {
   margin: 25px;
   text-indent: inherit;
 }
+
 /*Custom CSS*/
 h1 {
   box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, .5);
@@ -40,8 +41,7 @@ h1 {
 
 p {
   text-indent: 5%;
-
- }
+}
 
 
 blockquote {
@@ -69,8 +69,8 @@ h2 {
   padding: 20px;
   border-radius: 25px;
  }
-/*Custom CSS*/
 
+/*Custom CSS*/
 #content {
   border-style: dotted;
   border-color: #EA9010;
@@ -101,10 +101,9 @@ h2 {
   padding: 0.5rem 0.5rem;
   text-align: center;
   color: white;
-
-
 }
 
+/*Custom CSS*/
 button {
   background-image: url(https://static.vecteezy.com/system/resources/previews/000/092/728/large_2x/giraffe-print-vector.jpg);
 	border-radius: .5px;
@@ -120,12 +119,10 @@ a {
 ul {
   list-style-type: none;
   padding-left: 0;
-
  }
 
 
 /*Images*/
 img {
   width: 100%;
-
- }
+}
