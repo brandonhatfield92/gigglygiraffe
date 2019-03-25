@@ -6,7 +6,7 @@ File Names:
 . showMore.js
 
 Section One:
-  My project is just a basic informational site, the subject content of the page is predominantly giraffe related with a few extra links connected to related webpages(Giraffe Conservation Foundation, American Wildlife Foundation and SeaWorld!).  I intended for this site to be fun, simple and easy to navigate for the user.  I also developed this site with everyone in mind...including families! The link named Kids Zoo is exactly that, a cyber zoo for kids! Complete with pictures, videos and tons of fun facts.  Overall I enjoyed this experience and I'm please with the website I created.  I received tons of information, which was then applied to a hands on requirement, I enjoyed every minute  and  I can't wait dive deeper into field of Software Development.
+  My project is just a basic informational site, the subject content of the page is predominantly giraffe related with a few extra links connected to related webpages(Giraffe Conservation Foundation, American Wildlife Foundation and SeaWorld!).  I intended for this site to be fun, simple and easy to navigate for the user.  I also developed this site with everyone in mind...including families! The link named Kids Zoo is exactly that, a cyber zoo for kids! Complete with pictures, videos and tons of fun facts.  Overall I enjoyed this experience and I'm please with the website I created.  I received tons of information, which was then applied to a hands on requirement, I enjoyed every minute  and  I can't wait to dive deeper into the field of Software Development.
 
 Section Two:
   Three Custom CSS Styles I created are:
@@ -21,7 +21,7 @@ Section Two:
   border-radius: 25px;
   margin: 25px;
  }
-***This rule directly effects all my h2 elements I used a back-ground image to apply giraffe print to the headers and I also used the box-shadow property to give the elements some flare. Overall I'm happy with the result and think it makes for a fun  informational page.
+***This rule directly effects all my h2 elements I used a back-ground image to apply giraffe print to the headers and I also used the box-shadow property to give the elements some flare. Overall I'm happy with the result and think it makes for a fun page.
 
 2. blockquote {
   background-color: #EAEFBD;
@@ -49,10 +49,10 @@ Section Two:
   padding: 25px;
   margin: 25px;
  }
-***This class is affects all the content on my page, this block of code targets the class container. Just a little margin control and padding, I also added a border using the border-style property and gave it some color.
+***This class affects all the content on my page, this block of code targets the class container. Just a little margin control and padding, I also added a border using the border-style property and gave it some color.
 
 
-***All three of the CSS selectors below are directly related to my JavaScript function.  The styles below consist of some basic text and spacing control as well a border-style property.  The exciting part about this piece of code is the transition set-up, with these properties I can control the rate of speed in which my div shows more or shows less.  It was a fun it was a fun concept to work with and interesting figuring out how to make it visually pleasing to the user.
+***All three of the CSS selectors below are directly related to my JavaScript function.  The styles below consist of some basic text and spacing control as well a border-style property.  The exciting part about this piece of code is the transition set-up, with these properties I can control the rate of speed in which my div shows more or shows less content.  It was a fun concept to work with and interesting to figure out how to make it more visually pleasing to the user.
 
 2. #content {
   border-style: dotted;
@@ -89,4 +89,4 @@ Section Three:
 
 1. button.onclick = function() { };
 
-***The JS function(.onclick) is used to target the content div to expand and shrink the text area.  To accomplish this I wrote an  if/else statement that targets a button and using the .onclick function, the statement says than when the button is clicked expand the text area to 1000px and change the button text to "Show Less", else keep max-height of 500px.
+***The JS function(.onclick) is used to target the content div to expand and shrink the text area.  To accomplish this I wrote an  if/else statement that targets a button and using the .onclick function, the statement says than when the button is clicked; expand the text area to 1000px and change the button text to "Show Less", else keep max-height of 500px.
